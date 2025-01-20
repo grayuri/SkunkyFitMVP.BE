@@ -6,7 +6,7 @@ import { Diet } from "../models/Diet";
 import FactoryControllerTemplate from "./factoryControllerTemplate";
 import sharp from "sharp";
 import AwsS3 from "../lib/AwsS3";
-import getFileType from "../interfaces/utils/getFileType";
+import getFileType from "../utils/getFileType";
 import slugify from "../utils/slugify";
 import { IBasicController } from "../interfaces/controllers/IBasicController";
 import { MealFood } from "../models/MealFood";

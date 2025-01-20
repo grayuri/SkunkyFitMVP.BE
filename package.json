@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "npx tsx ./src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "build": "npx tsc",
+    "start": "node ./build/server.js"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
@@ -22,7 +22,7 @@
     "@types/pdfmake": "^0.2.10",
     "@types/validator": "^13.12.2",
     "tsx": "^4.19.1",
-    "typescript": "^5.5.3"
+    "typescript": "^5.7.3"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.679.0",

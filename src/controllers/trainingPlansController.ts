@@ -8,7 +8,7 @@ import sharp from "sharp";
 import { IBasicController } from "../interfaces/controllers/IBasicController";
 import { TrainingPlanExercise } from "../models/TrainingPlanExercise";
 import slugify from "../utils/slugify";
-import getFileType from "../interfaces/utils/getFileType";
+import getFileType from "../utils/getFileType";
 import AwsS3 from "../lib/AwsS3";
 import SkunkyPDFMaker from "../lib/SkunkyPDFMaker";
 import { AppError } from "../utils/AppError";
