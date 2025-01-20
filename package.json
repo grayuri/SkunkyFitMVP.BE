@@ -2,7 +2,6 @@
   "name": "back-end",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "npx tsx ./src/server.ts",
     "build": "npx tsc",
